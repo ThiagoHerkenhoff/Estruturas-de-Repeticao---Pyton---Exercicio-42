@@ -1,0 +1,18 @@
+# 42 - Faça um programa que leia um conjunto nao determinado de valores, um de cada vez, e escreva para
+# cada um dos valores lidos, o quadrado, o cubo, e a raiz quadrada. Finalize a entrada de dados com o valor
+# valor negativo ou zero.
+
+while True:
+    numero = int(input('Informe um numero: '))
+
+    if numero <= 0:
+        break
+
+    quadrado = numero ** 2
+    cubo = numero ** 3
+    raiz = numero * 0.5
+
+    print(f'Número: {numero}')
+    print(f'O quadrado do {numero} é {quadrado}')
+    print(f'O cubo do {numero} é {cubo}')
+    print(f'A raiz quadrada do {numero} é {raiz}')
